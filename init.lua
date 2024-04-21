@@ -32,6 +32,7 @@ require'nvim-treesitter.configs'.setup {
 
 vim.cmd('colo seoul256')
 vim.cmd('hi normal ctermbg=16')
+vim.cmd('hi error ctermbg=none')
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
